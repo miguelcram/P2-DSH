@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMov : MonoBehaviour {
     public Camera camara;
@@ -13,6 +14,7 @@ public class PlayerMov : MonoBehaviour {
     private float ValX, ValZ;
     private bool tocarSuelo = false;
     private Vector3 DireccionActual;
+    
 
     // Start is called before the first frame update
     void Start() {
@@ -28,6 +30,15 @@ public class PlayerMov : MonoBehaviour {
             CambiarDireccion();
         }
         transform.Translate(DireccionActual * velocidad * Time.deltaTime);
+
+        // Lanzar el Raycast hacia abajo
+        if (Physics.Raycast(transform.position, Vector3.down, 3f)) {
+        
+        } else {
+            Debug.Log("Flotando");
+            GetComponent<Rigidbody>().useGravity = true;
+            StartCoroutine(GameOver());
+        }
     }
 
     private void OnCollisionExit(Collision other) {
@@ -51,38 +62,6 @@ public class PlayerMov : MonoBehaviour {
         Destroy(suelo);
     }
 
-    /*-------------------------------------------------------------------------------------------------------------------------------------------
-    IEnumerator BorrarSuelo(GameObject suelo) {
-        float tiempoEspera = 2.0f;
-        bool Ultimacolision = false;
-
-        float aleatorio = Random.Range(0.0f, 1.0f);
-        if (aleatorio > 0.5) {
-            ValX += 6.0f;
-        } else {
-            ValZ += 6.0f;
-        }
-
-        while (tiempoEspera > 0 && !Ultimacolision) {
-            yield return new WaitForSeconds(0.5f);
-            tiempoEspera -= 0.5f;
-        }
-
-        if (!Ultimacolision) {
-            Destroy(suelo);
-        }
-
-
-        Instantiate(suelo, new Vector3(ValX, 0, ValZ), Quaternion.identity);
-        yield return new WaitForSeconds(2);
-        suelo.gameObject.GetComponent<Rigidbody>().isKinematic = false;
-        suelo.gameObject.GetComponent<Rigidbody>().useGravity = true;
-        yield return new WaitForSeconds(2);
-        Destroy(suelo);
-    }
-
-    ---------------------------------------------------------------------------------------------------------------------------------------------*/
-
     void CrearSueloInicial() {
         for (int i = 0; i < 3; i++) {
             ValZ += 6.0f;
@@ -104,5 +83,12 @@ public class PlayerMov : MonoBehaviour {
             tocarSuelo = true;
             audioSource.Play();
         }
+        GetComponent<Rigidbody>().useGravity = false;
+    }
+
+    //Game Over
+    IEnumerator GameOver() {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Escena99");
     }
 }
