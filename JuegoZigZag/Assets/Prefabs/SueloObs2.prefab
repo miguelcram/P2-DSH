@@ -236,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609247504052828237, guid: 5c00e38312178f0439e8a0fdc69c8afa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 609247504052828237, guid: 5c00e38312178f0439e8a0fdc69c8afa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -244,7 +244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609247504052828237, guid: 5c00e38312178f0439e8a0fdc69c8afa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 609247504052828237, guid: 5c00e38312178f0439e8a0fdc69c8afa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -280,7 +280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1260374703372342712, guid: 5c00e38312178f0439e8a0fdc69c8afa, type: 3}
       propertyPath: m_TagString
-      value: SueloObs2
+      value: Suelo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

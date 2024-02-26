@@ -10,6 +10,10 @@ public class NuevaPartida : MonoBehaviour {
     }
 
     public void MenuInicial() {
-        SceneManager.LoadScene("Escena00");
+        SceneManager.LoadScene("Escena00Inicio");
+    }
+
+    public void Nivel2() {
+        SceneManager.LoadScene("Escena03");
     }
 }

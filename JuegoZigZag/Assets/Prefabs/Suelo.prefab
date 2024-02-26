@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3378705855028245365}
   m_Layer: 0
   m_Name: Suelo
-  m_TagString: ContactoSuelo
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e07953897ce10b6419d3ff24172c7a05, type: 2}
+  - {fileID: 2100000, guid: dff5df1fbb220584799f32a6a0c332dc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

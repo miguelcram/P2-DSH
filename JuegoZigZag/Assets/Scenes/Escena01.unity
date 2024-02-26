@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -212,7 +212,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e07953897ce10b6419d3ff24172c7a05, type: 2}
+  - {fileID: 2100000, guid: 0cf939a9e1c006b44bf79677a5983b23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -266,17 +266,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 461867503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50bbcdce0e275b94499f2da6cfb25c77, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff67f653f85d934292ed4c529a98ef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camara: {fileID: 1099404712}
   audioSource: {fileID: 1613869188}
-  sueloActual: {fileID: 0}
-  suelo: {fileID: 2001282881}
-  suelo1: {fileID: 0}
-  suelo2: {fileID: 0}
+  Suelo: {fileID: 2001282881}
   velocidad: 5
-  NivelActual: 1
 --- !u!1 &704508178
 GameObject:
   m_ObjectHideFlags: 0

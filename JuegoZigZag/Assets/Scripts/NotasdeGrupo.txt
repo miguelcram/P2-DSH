@@ -1,0 +1,20 @@
+Estruc
+- Pantalla de fin + puntuacion LISTO
+- Nivel 1 añadir contador si 20 suelos siguiente nivel MV
+- Nivel 2 añadimos premios y obstaculos de esquivar MC
+- Nivel 3 añadimos grandes premios, premios y obstaculos de saltar y esquivar
+- vidas si chocas el muro de saltar MC
+- si caes muerte LISTO
+
+- cambiar materiales bola y premios MV
+- sonido choque obstaculo
+** bola pequeñas particulas
+- boost velocidad (superestrella)
+
+ACTUALIZACIONES:
+
+Movimientos: derecha, izquierda y adelante
+Prefabs: estrella, superestrella, vida
+Materiales: superestrella
+Movimiento: salto
+Fin del nivel 1

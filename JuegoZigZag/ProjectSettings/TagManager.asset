@@ -8,6 +8,9 @@ TagManager:
   - Suelo
   - SueloObs1
   - SueloObs2
+  - Premio
+  - SuperPremio
+  - Vida
   layers:
   - Default
   - TransparentFX
