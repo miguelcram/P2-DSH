@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ContactoSuelo
   - Suelo
+  - SueloObs1
+  - SueloObs2
   layers:
   - Default
   - TransparentFX
