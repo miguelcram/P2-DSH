@@ -8,6 +8,8 @@ TagManager:
   - Suelo
   - SueloObs1
   - SueloObs2
+  - Vida
+  - Obstaculo
   layers:
   - Default
   - TransparentFX
