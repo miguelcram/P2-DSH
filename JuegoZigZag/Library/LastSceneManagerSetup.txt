@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Escena99FinPartida.unity
+- path: Assets/Scenes/Escena01 movBotones.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
