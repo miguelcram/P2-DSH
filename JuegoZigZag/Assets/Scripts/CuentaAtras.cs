@@ -35,6 +35,6 @@ public class CuentaAtras : MonoBehaviour {
             imagen.sprite = numeros[i];
             yield return new WaitForSeconds(1);
         }
-        SceneManager.LoadScene("Escena01");
+        SceneManager.LoadScene(1);
     }
 }

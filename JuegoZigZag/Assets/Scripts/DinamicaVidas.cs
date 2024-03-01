@@ -1,43 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DinamicaVidas : MonoBehaviour
 {
-    public GameObject vida;
-    private NuevaPartida NuevaPartida;
-    
-    // Start is called before the first frame update
-    void Start()
+    public List<Sprite> corazones;
+    public int vidas;
+    public SpriteRenderer spriteRender;
+
+    private void Start()
     {
-        float offset = 1.0f;  // Separación entre vidas
-        //Creamos 3 vidas separadas por un offset
-        for (int i = 0; i < 3; i++)
-        {
-            Instantiate(vida, new Vector3(i * offset, 0, 0), Quaternion.identity);
+        //Se accede al elemento 0 de la lista corazones
+        spriteRender.sprite = corazones[vidas-3];
+    }
+
+    private void Update()
+    {
+        //Hcemos que siempre haya como maximo 3 corazones
+        if (corazones.Count > 3){
+            corazones = corazones.GetRange(0, 3);
         }
     }
 
-    void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.CompareTag("Obstaculo")){            
-            RestarVida();
-            if(VidasPerdidas() >= 3){
-                NuevaPartida.Nivel2();
-            }
+    //Sumar una vida
+    public void SumarVida()
+    {
+        if (corazones.Count > vidas){
+            vidas++;
+            spriteRender.sprite = corazones[vidas-1];
         }
     }
 
-    void RestarVida()
+    //Restar una vida
+    public void RestarVida()
     {
-        Destroy(GameObject.FindWithTag("Vida"));
+        if (vidas > 0){
+            vidas--;
+            spriteRender.sprite = corazones[vidas+1];
+        }else{
+            GameOver();
+        }
     }
 
-    int VidasPerdidas()
-    {
-        GameObject[] vidas = GameObject.FindGameObjectsWithTag("Vida");
-        if(vidas != null){
-            return 3 - vidas.Length;
-        }else{ return 0; }
+    //Game Over
+    public void GameOver() {
+        SceneManager.LoadScene("Escena99FinPartida");
     }
-
 }

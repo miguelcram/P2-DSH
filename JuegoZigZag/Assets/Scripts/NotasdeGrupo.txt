@@ -18,3 +18,8 @@ Prefabs: estrella, superestrella, vida
 Materiales: superestrella
 Movimiento: salto
 Fin del nivel 1
+
+ACTUALIZACIONES 01/03/2024:
+- Añadido interfaz con botones, vidas y marcador
+- Cambios en scripts para ser más legible y claro
+- 

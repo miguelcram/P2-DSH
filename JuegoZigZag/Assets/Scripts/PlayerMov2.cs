@@ -8,9 +8,19 @@ using UnityEngine.UI;
 public class PlayerMov2 : MonoBehaviour {
     public Camera camara;
     public AudioSource audioSource;
-
     public GameObject sueloPrincipal;
     public GameObject[] suelos;
+
+    public DinamicaVidas vidas_canvas;
+    public Text puntuacion;
+    public int puntos = 0;
+    public int vida = 3;
+
+    //Botones de control
+    public Button botonIzquierda;
+    public Button botonDerecha;
+    public Button botonAdelante;
+    public Button botonSaltar;
 
     public float velocidad = 5;
     public float fuerzaSalto = 1.0f;
@@ -20,13 +30,7 @@ public class PlayerMov2 : MonoBehaviour {
     private bool tocarSuelo = false;
     private Vector3 DireccionActual;
     private int numdeSuelos = 0;
-
     List<GameObject> suelosTotales = new List<GameObject>();
-
-    public Button botonIzquierda;
-    public Button botonDerecha;
-    public Button botonAdelante;
-    public Button botonSaltar;
 
     // Start is called before the first frame update
     void Start() {
@@ -39,6 +43,8 @@ public class PlayerMov2 : MonoBehaviour {
         botonDerecha.onClick.AddListener(() => CambiarDireccion(Vector3.right));
         botonAdelante.onClick.AddListener(() => CambiarDireccion(Vector3.forward));
         botonSaltar.onClick.AddListener(Saltar);
+
+        vidas_canvas = GameObject.FindObjectOfType<DinamicaVidas>();
     }
 
     // Update is called once per frame
@@ -54,40 +60,39 @@ public class PlayerMov2 : MonoBehaviour {
         }
     }
 
-IEnumerator BorrarSuelo(GameObject suelo) {
-    GameObject nuevoSuelo = null;
-    float aleatorio = Random.Range(0.0f, 1.0f);
-    if (aleatorio > 0.5) {
-        ValX += 6.0f;
-    } else {
-        ValZ += 6.0f;
-    }
-
-    if (numdeSuelos<10) {
-        //Tipo de suelo a instanciar
-        float sueloAleatorio = Random.Range(0.0f, 3.0f);
-        GameObject sueloPrefab;
-        if (sueloAleatorio < 1.0f) {
-            sueloPrefab = suelos[0];
-        } else if (sueloAleatorio < 2.0f) {
-            sueloPrefab = suelos[1];
+    IEnumerator BorrarSuelo(GameObject suelo) {
+        GameObject nuevoSuelo = null;
+        float aleatorio = Random.Range(0.0f, 1.0f);
+        if (aleatorio > 0.5) {
+            ValX += 6.0f;
         } else {
-            sueloPrefab = suelos[2];
+            ValZ += 6.0f;
         }
 
-        nuevoSuelo = Instantiate(sueloPrefab, new Vector3(ValX, 0, ValZ), Quaternion.identity);
-        suelosTotales.Add(nuevoSuelo);
-        numdeSuelos++;
+        if (numdeSuelos<10) {
+        //Tipo de suelo a instanciar
+            float sueloAleatorio = Random.Range(0.0f, 3.0f);
+            GameObject sueloPrefab;
+            if (sueloAleatorio < 1.0f) {
+                sueloPrefab = suelos[0];
+            } else if (sueloAleatorio < 2.0f) {
+                sueloPrefab = suelos[1];
+            } else {
+                sueloPrefab = suelos[2];
+            }
+            nuevoSuelo = Instantiate(sueloPrefab, new Vector3(ValX, 0, ValZ), Quaternion.identity);
+            suelosTotales.Add(nuevoSuelo);
+            numdeSuelos++;
+        }
+        yield return new WaitForSeconds(5);
+        GameObject sueloBorrar = suelosTotales[0];
+        sueloBorrar.GetComponent<Rigidbody>().isKinematic = false;
+        sueloBorrar.GetComponent<Rigidbody>().useGravity = true;
+        yield return new WaitForSeconds(3);
+        Destroy(suelosTotales[0]);
+        suelosTotales.RemoveAt(0);
+        numdeSuelos--;
     }
-    yield return new WaitForSeconds(5);
-    GameObject sueloBorrar = suelosTotales[0];
-    sueloBorrar.GetComponent<Rigidbody>().isKinematic = false;
-    sueloBorrar.GetComponent<Rigidbody>().useGravity = true;
-    yield return new WaitForSeconds(3);
-    Destroy(suelosTotales[0]);
-    suelosTotales.RemoveAt(0);
-    numdeSuelos--;
-}
 
     void CrearSueloInicial() {
         for (int i = 0; i < 3; i++) {
@@ -103,17 +108,42 @@ IEnumerator BorrarSuelo(GameObject suelo) {
     }
 
     //Play sound when touch the ground
-    void OnCollisionEnter(Collision collision) {
-        if (!tocarSuelo && collision.gameObject.CompareTag("Suelo")) {
+    void OnCollisionEnter(Collision other) {
+        if (!tocarSuelo && other.gameObject.CompareTag("Suelo")) {
             tocarSuelo = true;
             audioSource.Play();
         }
         GetComponent<Rigidbody>().useGravity = false;
+
+        if(other.gameObject.tag == "Premio") {
+            StartCoroutine(GanoPuntos(other.gameObject, puntos, puntuacion));
+        }
+
+        if (other.gameObject.tag == "Obstaculo") {
+            StartCoroutine(PierdoVida());
+        }
+        
+        if(other.gameObject.tag == "Vida") {
+            StartCoroutine(GanoVida());
+        }
     }
 
-    //Game Over
-    void GameOver() {
-        SceneManager.LoadScene("Escena99");
+    IEnumerator GanoPuntos(GameObject other, int puntos, Text Puntuacion) {
+        yield return new WaitForSeconds(1);
+        //Aumentar puntos
+        puntos++;
+        Puntuacion.text = "Puntuación: " + puntos;
+        Destroy(other.gameObject);
+    }
+
+    IEnumerator PierdoVida() {
+        yield return new WaitForSeconds(1);
+        vidas_canvas.RestarVida();
+    }
+
+    IEnumerator GanoVida() {
+        yield return new WaitForSeconds(1);
+        vidas_canvas.SumarVida();
     }
 
     //Flotando
@@ -125,11 +155,12 @@ IEnumerator BorrarSuelo(GameObject suelo) {
             yield return new WaitForSeconds(1);
             if (!Physics.Raycast(transform.position, Vector3.down, 2f)){
                 yield return new WaitForSeconds(0.5f);
-                GameOver();
+                vidas_canvas.GameOver();
             }
         }
     }
 
+    //Funcion para el boton saltar
     void Saltar() {
         if (tocarSuelo) {
             GetComponent<Rigidbody>().AddForce(Vector3.up * fuerzaSalto, ForceMode.Impulse);
