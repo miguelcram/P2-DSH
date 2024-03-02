@@ -15,7 +15,7 @@ C:/Users/Usuario/Desktop/UNI/DSH/P2-DSH/JuegoZigZag
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49742
+49786
 Successfully changed project path to: C:/Users/Usuario/Desktop/UNI/DSH/P2-DSH/JuegoZigZag
 C:/Users/Usuario/Desktop/UNI/DSH/P2-DSH/JuegoZigZag
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Usuario/Desktop/UNI/DSH/P2-DSH/JuegoZigZag
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9724] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 759573709 [EditorId] 759573709 [Version] 1048832 [Id] WindowsEditor(7,PC-Miguel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1260] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 1446879193 [EditorId] 1446879193 [Version] 1048832 [Id] WindowsEditor(7,PC-Miguel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9724] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 759573709 [EditorId] 759573709 [Version] 1048832 [Id] WindowsEditor(7,PC-Miguel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1260] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 1446879193 [EditorId] 1446879193 [Version] 1048832 [Id] WindowsEditor(7,PC-Miguel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 218.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,114 +70,114 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.051484 seconds.
-- Loaded All Assemblies, in  1.473 seconds
+Registered in 0.041272 seconds.
+- Loaded All Assemblies, in  1.400 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1198 ms
+Android Extension - Scanning For ADB Devices 1017 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.347 seconds
-Domain Reload Profiling: 4832ms
-	BeginReloadAssembly (433ms)
+- Finished resetting the current domain, in  2.239 seconds
+Domain Reload Profiling: 3635ms
+	BeginReloadAssembly (425ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (174ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (119ms)
 	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (278ms)
-	LoadAllAssembliesAndSetupDomain (543ms)
-		LoadAssemblies (431ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (601ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (532ms)
-			TypeCache.Refresh (527ms)
-				TypeCache.ScanAssembly (473ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
+		AnalyzeDomain (585ms)
+			TypeCache.Refresh (581ms)
+				TypeCache.ScanAssembly (519ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (3365ms)
+	FinalizeReload (2240ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2933ms)
+		SetupLoadedEditorAssemblies (2047ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1658ms)
+			InitializePlatformSupportModulesInManaged (1441ms)
 			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (638ms)
-			ProcessInitializeOnLoadMethodAttributes (614ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027E22FC7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028FDEDD9150 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDFCDADC0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028E21FA7210 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FC7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028E2050BE20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FC7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028E21FA7210 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FCB830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028E21FABA20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21B9CC50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028E2050BE20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21BBDC60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028E207B3620 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21BC4670 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000028FDEDE1160 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E215E7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028E20CBF020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FCB830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028E207B3620 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF07C770 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028FDEDE1160 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E210E4020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028E20CBF020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4C8E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028E2052CE30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FE3F60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028E2052CE30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FE3F60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028E2052CE30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FCB830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028E207B3620 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF69B010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028E20CE0A30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF69B010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028E21158010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21145430 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028E205D7430 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FCB830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028E205D7430 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21801020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028E20F98010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4C8E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028E207BB630 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4C8E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028E21190A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4C8E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028E2119C830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21654860 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028E2119C830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF701030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028E2119C830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21838630 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028FDF0DB910 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF701030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028E2119C830 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.668 seconds
-Refreshing native plugins compatible for Editor in 15.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.125 seconds
+Refreshing native plugins compatible for Editor in 9.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -186,47 +186,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.646 seconds
-Domain Reload Profiling: 5314ms
-	BeginReloadAssembly (521ms)
+- Finished resetting the current domain, in  1.850 seconds
+Domain Reload Profiling: 3969ms
+	BeginReloadAssembly (529ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (105ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (172ms)
-	LoadAllAssembliesAndSetupDomain (1834ms)
-		LoadAssemblies (1100ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (1318ms)
+		LoadAssemblies (1037ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1065ms)
-			TypeCache.Refresh (928ms)
-				TypeCache.ScanAssembly (846ms)
-			ScanForSourceGeneratedMonoScriptInfo (109ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (2653ms)
+		AnalyzeDomain (596ms)
+			TypeCache.Refresh (530ms)
+				TypeCache.ScanAssembly (483ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1852ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1620ms)
+		SetupLoadedEditorAssemblies (1292ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (110ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (1186ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (26ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (964ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (90ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.02 seconds
-Refreshing native plugins compatible for Editor in 21.28 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 14.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (57.7 KB). Loaded Objects now: 3608.
+Unloading 35 unused Assets / (57.5 KB). Loaded Objects now: 3608.
 Memory consumption went from 133.3 MB to 133.2 MB.
-Total: 15.583800 ms (FindLiveObjects: 0.926300 ms CreateObjectMapping: 1.495900 ms MarkObjects: 12.738000 ms  DeleteObjects: 0.418600 ms)
+Total: 12.911500 ms (FindLiveObjects: 0.855900 ms CreateObjectMapping: 0.971200 ms MarkObjects: 10.604300 ms  DeleteObjects: 0.475500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -243,66 +243,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 296.550267 seconds.
+  path: Assets/Scenes/EscenaSuelos.unity
+  artifactKey: Guid(fc0259213ce84c74a9c384acce3c7237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaSuelos.unity using Guid(fc0259213ce84c74a9c384acce3c7237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd764057dd03d0316badab8f916500490') in 0.006654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027FDEF24010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028E20FDF630 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22D27020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028E2C04B020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C949010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028E20F98010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22D27020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028E2C04B020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF24CF30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028FDEFE0050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21C1C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028E2C943060 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF24CF30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028FDEDA1010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF253940 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000028E2CA05020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2AD26020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028E20E01000 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2AA8A090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028E22395E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4FD730 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028E2CB2FBB0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E232CD020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028E20CBF020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF253940 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028E2C95B870 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF507B40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028E2C95B870 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF507B40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028E2C95B870 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FC7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028FDEDA1010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ADC0020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028E20E01000 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ADC0020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028E2BD8B090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF5AE010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028E20FB9A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FC7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028FDE9A9860 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B390020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028E21158010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FC7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028FDE9A9860 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FCEE30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028E2C95B870 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22FCEE30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028E2C95B870 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21C1C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028E20FB9A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21C1C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028E21BBFC90 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21531020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028E2BD8B090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21C1C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028E21BBFC90 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.702 seconds
-Refreshing native plugins compatible for Editor in 8.77 ms, found 3 plugins.
+- Loaded All Assemblies, in  7.896 seconds
+Refreshing native plugins compatible for Editor in 13.09 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -310,46 +318,194 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.279 seconds
-Domain Reload Profiling: 4972ms
-	BeginReloadAssembly (576ms)
+- Finished resetting the current domain, in 30.812 seconds
+Domain Reload Profiling: 38703ms
+	BeginReloadAssembly (461ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (146ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (907ms)
-		LoadAssemblies (1181ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (7201ms)
+		LoadAssemblies (7412ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (37ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (24ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (3281ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (30813ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1361ms)
+		SetupLoadedEditorAssemblies (1311ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (112ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (87ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (205ms)
-			ProcessInitializeOnLoadAttributes (938ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (961ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 10.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 10.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3611.
-Memory consumption went from 130.1 MB to 130.0 MB.
-Total: 9.422100 ms (FindLiveObjects: 0.879200 ms CreateObjectMapping: 0.852500 ms MarkObjects: 7.507700 ms  DeleteObjects: 0.179400 ms)
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 9.737400 ms (FindLiveObjects: 0.823600 ms CreateObjectMapping: 0.221500 ms MarkObjects: 8.505200 ms  DeleteObjects: 0.184100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4970.557956 seconds.
+  path: Assets/Prefabs/Suelos/Suelo1Premio.prefab
+  artifactKey: Guid(c4e0ad4560b0a5f45bfb00803688d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Suelos/Suelo1Premio.prefab using Guid(c4e0ad4560b0a5f45bfb00803688d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b8426afea180b845ed334ca5782329') in 0.367553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.840633 seconds.
+  path: Assets/Prefabs/Suelos/SueloObs2.prefab
+  artifactKey: Guid(ec759d2a3e5c5e041b0838a3c2b16db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Suelos/SueloObs2.prefab using Guid(ec759d2a3e5c5e041b0838a3c2b16db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f60596e4ca55d935b09b33fbe18605') in 0.090516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Suelos/SueloPremios.prefab
+  artifactKey: Guid(912b3200e4f3d2f4299f6b956da2040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Suelos/SueloPremios.prefab using Guid(912b3200e4f3d2f4299f6b956da2040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd899cc8ec1f603a5a0ffa69a95a5e3e9') in 0.069955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028FDD8A8330 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E52953A30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE9DAEF0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E52953A30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E20F7E050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2B4B8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21E89170 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE7F25C0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEE64850 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E20F69020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2BC397F0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21E89170 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21E89170 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21E89170 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2B4B8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E20F98010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21F69200 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE9FC900 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2CC50680 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21158010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2CC50680 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE7C8570 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE7C8570 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE9FC900 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE921020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.351 seconds
+Refreshing native plugins compatible for Editor in 7.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.069 seconds
+Domain Reload Profiling: 4415ms
+	BeginReloadAssembly (461ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (687ms)
+		LoadAssemblies (891ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3071ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (98ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (871ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 12.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 3622.
+Memory consumption went from 131.9 MB to 131.9 MB.
+Total: 10.084400 ms (FindLiveObjects: 0.674200 ms CreateObjectMapping: 0.152700 ms MarkObjects: 8.944900 ms  DeleteObjects: 0.309300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -369,64 +525,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027E21148020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22784F70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028FDE7C8570 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23117020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028FDE985050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22A30030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028FDE7C8570 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22784F70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028E22395E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21D78020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4FD730 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028E2B466010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE2B5010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000028E2C50D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E216AD010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028FDE3A9010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2AA8A090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028FDEE64850 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028FDEAA8020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D002010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028E2B280010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE2B5010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028E2C50D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE2B5010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028E2C50D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE2B5010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028E2C50D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF4FD730 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028E2B466010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21A10010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028E2B0FF620 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B33C030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028E2BD8B090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDFC4B0A0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028E2C225010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028E21D8A070 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C7B0990 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028E21158010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028E21D8A070 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C892010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028FDE3E1A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C892010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028FDE3E1A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22A39C80 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028E2CB2FBB0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF5AE010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028E2CB2FBB0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CCF6330 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028E2B0FF620 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21D78020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.477 seconds
-Refreshing native plugins compatible for Editor in 12.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.380 seconds
+Refreshing native plugins compatible for Editor in 12.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -434,46 +590,170 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.763 seconds
-Domain Reload Profiling: 4231ms
-	BeginReloadAssembly (462ms)
+- Finished resetting the current domain, in  2.664 seconds
+Domain Reload Profiling: 4034ms
+	BeginReloadAssembly (459ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (885ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (838ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 8.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3625.
+Memory consumption went from 134.1 MB to 134.1 MB.
+Total: 10.367200 ms (FindLiveObjects: 1.140500 ms CreateObjectMapping: 0.653500 ms MarkObjects: 8.394300 ms  DeleteObjects: 0.173200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028FDD8A8330 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E22551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEAC4060 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E22551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21D52020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEDA1010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E20F7E050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE3A9010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEE64850 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2B19E030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2BC397F0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E20F7E050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21D52020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21D52020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEDA1010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E22685380 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E2BCAF030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21D8A070 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21158010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E21D8A070 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE3E1A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE3E1A20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDEDD1110 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028FDE7F25C0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.355 seconds
+Refreshing native plugins compatible for Editor in 14.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.608 seconds
+Domain Reload Profiling: 3957ms
+	BeginReloadAssembly (440ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (103ms)
-	RebuildCommonClasses (102ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (766ms)
-		LoadAssemblies (1002ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (871ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (2765ms)
+	FinalizeReload (2609ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1149ms)
+		SetupLoadedEditorAssemblies (1013ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (134ms)
+			InitializePlatformSupportModulesInManaged (78ms)
 			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (210ms)
-			ProcessInitializeOnLoadAttributes (724ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (687ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 15.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3614.
-Memory consumption went from 132.0 MB to 132.0 MB.
-Total: 10.539500 ms (FindLiveObjects: 0.784800 ms CreateObjectMapping: 0.755100 ms MarkObjects: 8.809200 ms  DeleteObjects: 0.187100 ms)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3628.
+Memory consumption went from 136.0 MB to 136.0 MB.
+Total: 9.680200 ms (FindLiveObjects: 0.680000 ms CreateObjectMapping: 0.171600 ms MarkObjects: 8.653200 ms  DeleteObjects: 0.172200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -493,64 +773,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027E2A95A040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028E226CB020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23218E40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028E205E4030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028E2CE3C020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23218E40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028E205E4030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2A6D8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028E2CD66020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21349020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23227030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028E2BE45010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22784F70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000028E52953A30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E216AD010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028FDE3A9010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2AA8A090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028FDEE64850 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028E21D8A070 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CB83010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028E2BC397F0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22784F70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028E52953A30 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22784F70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028E2CD66020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22784F70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028E2CD66020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23227030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028E2BE45010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21A10010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028E2CE3C020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEEC8020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028E20B99020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028E226CB020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D192010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028FDEAA8020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C7B0990 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028E21158010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D192010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028FDEAA8020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22A2D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028E20F7E050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22A2D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028E20F7E050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF5AE010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028FDEDD1110 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21987020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028E2BD8B090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21349020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028E225B4600 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.354 seconds
-Refreshing native plugins compatible for Editor in 14.01 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.671 seconds
+Refreshing native plugins compatible for Editor in 12.57 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -558,46 +838,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.031 seconds
-Domain Reload Profiling: 4377ms
-	BeginReloadAssembly (465ms)
+- Finished resetting the current domain, in  2.902 seconds
+Domain Reload Profiling: 4565ms
+	BeginReloadAssembly (558ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
+		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (654ms)
-		LoadAssemblies (896ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (1110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (3032ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2903ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1199ms)
+		SetupLoadedEditorAssemblies (1031ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (65ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (173ms)
-			ProcessInitializeOnLoadAttributes (864ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (688ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 9.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3617.
-Memory consumption went from 134.0 MB to 133.9 MB.
-Total: 7.477900 ms (FindLiveObjects: 0.818300 ms CreateObjectMapping: 0.381500 ms MarkObjects: 6.090700 ms  DeleteObjects: 0.184400 ms)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3631.
+Memory consumption went from 138.0 MB to 137.9 MB.
+Total: 10.799900 ms (FindLiveObjects: 0.775800 ms CreateObjectMapping: 0.389100 ms MarkObjects: 9.438300 ms  DeleteObjects: 0.193100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -617,64 +897,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027E2A95A040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028E2DAB2050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE1BF030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028E2CC50680 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028E20BB9040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE1BF030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028E2CC50680 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23219840 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028E2CC54E90 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C73C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028E21EB1170 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B2E2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2322F040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CCF6330 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028E2DA52020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2AA8A090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028E2BC04070 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CB83010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028E2BC397F0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2322F040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23219840 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028E226B0F90 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23219840 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028E226B0F90 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B2E2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21349020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028E22372010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21933030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028E21F69200 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF914860 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C7B0990 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028E21054030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF914860 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2A6D8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2A6D8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028E20496010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B103020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028FDEDD1110 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2147E010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028E20650020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C73C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028E21EB1170 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  7.793 seconds
-Refreshing native plugins compatible for Editor in 11.06 ms, found 3 plugins.
+- Loaded All Assemblies, in  6.230 seconds
+Refreshing native plugins compatible for Editor in 8.05 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -682,46 +962,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 28.870 seconds
-Domain Reload Profiling: 36659ms
-	BeginReloadAssembly (433ms)
+- Finished resetting the current domain, in 24.379 seconds
+Domain Reload Profiling: 30600ms
+	BeginReloadAssembly (494ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (108ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (7180ms)
-		LoadAssemblies (7384ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (5465ms)
+		LoadAssemblies (5705ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (28872ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (24380ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1275ms)
+		SetupLoadedEditorAssemblies (963ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (92ms)
-			SetLoadedEditorAssemblies (20ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (895ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (660ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 24.65 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 16.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3620.
-Memory consumption went from 135.9 MB to 135.9 MB.
-Total: 10.753900 ms (FindLiveObjects: 0.763700 ms CreateObjectMapping: 0.777300 ms MarkObjects: 8.937500 ms  DeleteObjects: 0.271300 ms)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3634.
+Memory consumption went from 139.9 MB to 139.8 MB.
+Total: 8.934900 ms (FindLiveObjects: 0.970000 ms CreateObjectMapping: 0.626800 ms MarkObjects: 7.169600 ms  DeleteObjects: 0.165000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -741,64 +1021,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027E2A95A040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028E2D4E8020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23218E40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028E2BDB5020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028E2BD8B090 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23218E40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000028E2BDB5020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2A6D8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028E225CC620 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21A94010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028E209E8DA0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23227030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028E2B314010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E20FE2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000028E2B054020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E216AD010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028FDE89D010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2179B030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028E209D7020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D192010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028E21339020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CB83010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028E2BC397F0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E20FE2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028E2B054020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E20FE2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028E2CD20E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E20FE2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028E2CD20E20 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23227030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028E2B314010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21349020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028E22372010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21933030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028E21F69200 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D192010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028E2CC50680 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C7B0990 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028E21054030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D192010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028E2CC50680 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22A2D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028E2B054020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E22A2D020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028E2B054020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000028FDEE76C60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2AFA8020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028FDEDD1110 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2147E010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028E20650020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21A94010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028E209E8DA0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.371 seconds
-Refreshing native plugins compatible for Editor in 8.91 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.533 seconds
+Refreshing native plugins compatible for Editor in 10.68 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -806,334 +1086,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.641 seconds
-Domain Reload Profiling: 4005ms
-	BeginReloadAssembly (476ms)
+- Finished resetting the current domain, in  3.681 seconds
+Domain Reload Profiling: 5208ms
+	BeginReloadAssembly (505ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (57ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (658ms)
-		LoadAssemblies (901ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (797ms)
+		LoadAssemblies (1048ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (38ms)
 			TypeCache.Refresh (18ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2643ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (3683ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1052ms)
+		SetupLoadedEditorAssemblies (1517ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (80ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (110ms)
+			SetLoadedEditorAssemblies (17ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (695ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 7.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3623.
-Memory consumption went from 137.8 MB to 137.8 MB.
-Total: 6.298800 ms (FindLiveObjects: 0.664300 ms CreateObjectMapping: 0.146600 ms MarkObjects: 5.335500 ms  DeleteObjects: 0.149300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 881.211952 seconds.
-  path: Assets/Imagenes/flechaIzquierda.png
-  artifactKey: Guid(2732a20cb17b59644bc34401ffc3880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/flechaIzquierda.png using Guid(2732a20cb17b59644bc34401ffc3880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d488d32981570ffa84832dac4db8b1d') in 0.375726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.591268 seconds.
-  path: Assets/Materiales/Arena.mat
-  artifactKey: Guid(7991e21998b8ecd49a49c018ccfd6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/Arena.mat using Guid(7991e21998b8ecd49a49c018ccfd6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7040203cacfed59b7b75cd9248b5e8') in 0.210510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Materiales/Cesped.mat
-  artifactKey: Guid(dff5df1fbb220584799f32a6a0c332dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/Cesped.mat using Guid(dff5df1fbb220584799f32a6a0c332dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecb9da4c2c19dda57a8ea521d8a803b') in 0.072920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.757949 seconds.
-  path: Assets/Materiales/Rosa.mat
-  artifactKey: Guid(22b035ba6be3e684f99217463d0afcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/Rosa.mat using Guid(22b035ba6be3e684f99217463d0afcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f8a9f49bf87891261076cddd270f39') in 0.059189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 576.705575 seconds.
-  path: Assets/Imagenes/flechaDerecha.png
-  artifactKey: Guid(3f6ebfeb76f71f241809e99dab43698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/flechaDerecha.png using Guid(3f6ebfeb76f71f241809e99dab43698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e8a1db47441fa4c33469c617a7a0a7') in 0.087369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027E2A95A040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23218E40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E23218E40 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF53D7A0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF6FAB50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E219A7050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2322F040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21E0C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2179B030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CB83010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2322F040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2322F040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2322F040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B2E2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CAC7010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E210E4020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDDC98D50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C7B0990 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDDC98D50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B1D7030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B1D7030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2ACAE020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B103020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2147E010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF6FAB50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.348 seconds
-Refreshing native plugins compatible for Editor in 11.78 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.286 seconds
-Domain Reload Profiling: 4628ms
-	BeginReloadAssembly (455ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (99ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (664ms)
-		LoadAssemblies (907ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (3289ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1407ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (95ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (184ms)
-			ProcessInitializeOnLoadAttributes (1012ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 15.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3668.
-Memory consumption went from 139.9 MB to 139.9 MB.
-Total: 11.607100 ms (FindLiveObjects: 1.273000 ms CreateObjectMapping: 1.240300 ms MarkObjects: 8.830200 ms  DeleteObjects: 0.260000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027E2A95A040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E219B0E50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E219B0E50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2A980010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21C1C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF70AB60 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEF34020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CE6D340 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21E3C030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CB83010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEF34020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEF34020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEF34020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21327020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21349020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEE74020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21148020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDF61A010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D192010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21DA8050 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21148020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B103020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2147E010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21C1C010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.321 seconds
-Refreshing native plugins compatible for Editor in 10.79 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.411 seconds
-Domain Reload Profiling: 4730ms
-	BeginReloadAssembly (438ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (688ms)
-		LoadAssemblies (906ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (3413ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1378ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (94ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (195ms)
-			ProcessInitializeOnLoadAttributes (979ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (1116ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 10.76 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 11.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3671.
-Memory consumption went from 142.1 MB to 142.0 MB.
-Total: 9.200100 ms (FindLiveObjects: 0.902900 ms CreateObjectMapping: 0.386800 ms MarkObjects: 7.752500 ms  DeleteObjects: 0.154000 ms)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3637.
+Memory consumption went from 141.8 MB to 141.8 MB.
+Total: 9.666700 ms (FindLiveObjects: 0.810700 ms CreateObjectMapping: 0.385000 ms MarkObjects: 8.294200 ms  DeleteObjects: 0.173600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1150,135 +1142,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027E2A95A040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E219B0E50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21551040 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E219B0E50 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2A6D8010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21A94010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B2E2010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C892010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D429030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E216DD030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEDA4020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C892010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C892010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C892010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21327020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2CAC7010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2D429030 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21148020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2C799ED0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDE247A70 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E213696B0 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEF34020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027FDEF34020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21148020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2B103020 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E2147E010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E21A94010 doesn't match image C:\Users\Usuario\Desktop\UNI\DSH\P2-DSH\JuegoZigZag\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.463 seconds
-Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.935 seconds
-Domain Reload Profiling: 5390ms
-	BeginReloadAssembly (491ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
-	RebuildCommonClasses (110ms)
-	RebuildNativeTypeToScriptingClass (43ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (717ms)
-		LoadAssemblies (944ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (75ms)
-			TypeCache.Refresh (32ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (3937ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1327ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (97ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (934ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 11.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3674.
-Memory consumption went from 144.0 MB to 144.0 MB.
-Total: 12.553700 ms (FindLiveObjects: 1.331400 ms CreateObjectMapping: 1.503200 ms MarkObjects: 9.150800 ms  DeleteObjects: 0.563000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4915.599251 seconds.
-  path: Assets/Prefabs/SuperEstrellaMario Variant.prefab
-  artifactKey: Guid(cf82670265fecb84da7a3c2798aad54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperEstrellaMario Variant.prefab using Guid(cf82670265fecb84da7a3c2798aad54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a69d965d76057e598dd9ac2e8ce048') in 0.416544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25

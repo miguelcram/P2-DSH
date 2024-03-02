@@ -39,12 +39,12 @@ public class PlayerMov2 : MonoBehaviour {
         CrearSueloInicial();
         DireccionActual = Vector3.forward;
 
+        vidas_canvas = GameObject.FindObjectOfType<DinamicaVidas>();
+
         botonIzquierda.onClick.AddListener(() => CambiarDireccion(Vector3.left));
         botonDerecha.onClick.AddListener(() => CambiarDireccion(Vector3.right));
         botonAdelante.onClick.AddListener(() => CambiarDireccion(Vector3.forward));
         botonSaltar.onClick.AddListener(Saltar);
-
-        vidas_canvas = GameObject.FindObjectOfType<DinamicaVidas>();
     }
 
     // Update is called once per frame
@@ -71,14 +71,22 @@ public class PlayerMov2 : MonoBehaviour {
 
         if (numdeSuelos<10) {
         //Tipo de suelo a instanciar
-            float sueloAleatorio = Random.Range(0.0f, 3.0f);
-            GameObject sueloPrefab;
+            float sueloAleatorio = Random.Range(0.0f, 7.0f);
+            GameObject sueloPrefab = null;
             if (sueloAleatorio < 1.0f) {
                 sueloPrefab = suelos[0];
-            } else if (sueloAleatorio < 2.0f) {
+            } else if (sueloAleatorio < 2.0f){
                 sueloPrefab = suelos[1];
-            } else {
+            } else if (sueloAleatorio < 3.0f) {
                 sueloPrefab = suelos[2];
+            } else if (sueloAleatorio < 4.0f) {
+                sueloPrefab = suelos[3];
+            } else if (sueloAleatorio < 5.0f) {
+                sueloPrefab = suelos[4];
+            } else if (sueloAleatorio < 6.5f) {
+                sueloPrefab = suelos[5];
+            } else if (sueloAleatorio < 7.5f) {
+                sueloPrefab = suelos[6];
             }
             nuevoSuelo = Instantiate(sueloPrefab, new Vector3(ValX, 0, ValZ), Quaternion.identity);
             suelosTotales.Add(nuevoSuelo);

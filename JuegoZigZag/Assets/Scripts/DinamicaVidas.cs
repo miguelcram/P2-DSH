@@ -6,30 +6,31 @@ using UnityEngine.SceneManagement;
 
 public class DinamicaVidas : MonoBehaviour
 {
-    public List<Sprite> corazones;
+    public Sprite[] corazones;
     public int vidas;
-    public SpriteRenderer spriteRender;
+    public SpriteRenderer SpriteRenderer;
 
     private void Start()
     {
+        SpriteRenderer = GetComponent<SpriteRenderer>(); // Initialize the spriteRender variable
         //Se accede al elemento 0 de la lista corazones
-        spriteRender.sprite = corazones[vidas-3];
+        SpriteRenderer.sprite = corazones[vidas-3];
     }
 
     private void Update()
     {
         //Hcemos que siempre haya como maximo 3 corazones
-        if (corazones.Count > 3){
-            corazones = corazones.GetRange(0, 3);
+        if (corazones.Length > 3){
+            vidas = 3;
         }
     }
 
     //Sumar una vida
     public void SumarVida()
     {
-        if (corazones.Count > vidas){
+        if (corazones.Length > vidas){
             vidas++;
-            spriteRender.sprite = corazones[vidas-1];
+            SpriteRenderer.sprite = corazones[vidas-1];
         }
     }
 
@@ -38,7 +39,7 @@ public class DinamicaVidas : MonoBehaviour
     {
         if (vidas > 0){
             vidas--;
-            spriteRender.sprite = corazones[vidas+1];
+            SpriteRenderer.sprite = corazones[vidas+1];
         }else{
             GameOver();
         }
