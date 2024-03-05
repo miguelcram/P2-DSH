@@ -18,12 +18,12 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 32
-        applicationId 'com.DefaultCompany.ProyectoZigZag'
+        applicationId 'com.MvMcCompany.ProyectoZigZag'
         ndk {
             abiFilters 'armeabi-v7a'
         }
         versionCode 1
-        versionName '1.1'
+        versionName '3.6'
     }
 
     aaptOptions {

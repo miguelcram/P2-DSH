@@ -98,6 +98,6 @@ public class PlayerMov : MonoBehaviour {
     //Game Over
     IEnumerator GameOver() {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Escena011");
+        SceneManager.LoadScene("Escena99FinPartida");
     }
 }

@@ -8,38 +8,44 @@ using UnityEngine.UI;
 public class PlayerMov2 : MonoBehaviour {
     public Camera camara;
     public AudioSource audioSource;
+    public Text contadorPuntos;
+    public Text contadorEstrellas;
+
     public GameObject sueloPrincipal;
     public GameObject[] suelos;
 
-    public DinamicaVidas vidas_canvas;
-    public Text puntuacion;
-    public int puntos = 0;
-    public int vida = 3;
-
-    //Botones de control
     public Button botonIzquierda;
     public Button botonDerecha;
     public Button botonAdelante;
     public Button botonSaltar;
 
     public float velocidad = 5;
-    public float fuerzaSalto = 1.0f;
+    public float fuerzaSalto = 4.0f;
 
     private Vector3 offset;
     private float ValX, ValZ;
     private bool tocarSuelo = false;
     private Vector3 DireccionActual;
+
     private int numdeSuelos = 0;
+    private int contsuelos = 0;
+    private int numsueloscreados = 4;
+
+    private int totalEstrellas = 0;
+    private int puntos = 1;
+    private int puntosEstrella = 3;
+    private int puntosSuperEstrella = 5;
+
     List<GameObject> suelosTotales = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start() {
         offset = camara.transform.position;
+        contadorPuntos.text = "Puntos: " + ControladorPuntos.Instance.totalPuntos;
+        contadorEstrellas.text = "Estrellas: " + totalEstrellas;
         suelosTotales.Add(sueloPrincipal);
         CrearSueloInicial();
         DireccionActual = Vector3.forward;
-
-        vidas_canvas = GameObject.FindObjectOfType<DinamicaVidas>();
 
         botonIzquierda.onClick.AddListener(() => CambiarDireccion(Vector3.left));
         botonDerecha.onClick.AddListener(() => CambiarDireccion(Vector3.right));
@@ -60,47 +66,63 @@ public class PlayerMov2 : MonoBehaviour {
         }
     }
 
-    IEnumerator BorrarSuelo(GameObject suelo) {
-        GameObject nuevoSuelo = null;
+IEnumerator BorrarSuelo(GameObject suelo) {
+    GameObject nuevoSuelo = null;
+    if (numdeSuelos<10) {
         float aleatorio = Random.Range(0.0f, 1.0f);
+        if (numsueloscreados == 19) {
+            aleatorio = 0.3f;
+        }
         if (aleatorio > 0.5) {
             ValX += 6.0f;
         } else {
             ValZ += 6.0f;
         }
 
-        if (numdeSuelos<10) {
         //Tipo de suelo a instanciar
-            float sueloAleatorio = Random.Range(0.0f, 7.0f);
-            GameObject sueloPrefab = null;
-            if (sueloAleatorio < 1.0f) {
-                sueloPrefab = suelos[0];
-            } else if (sueloAleatorio < 2.0f){
-                sueloPrefab = suelos[1];
-            } else if (sueloAleatorio < 3.0f) {
-                sueloPrefab = suelos[2];
-            } else if (sueloAleatorio < 4.0f) {
-                sueloPrefab = suelos[3];
-            } else if (sueloAleatorio < 5.0f) {
-                sueloPrefab = suelos[4];
-            } else if (sueloAleatorio < 6.5f) {
-                sueloPrefab = suelos[5];
-            } else if (sueloAleatorio < 7.5f) {
-                sueloPrefab = suelos[6];
+        int sueloAleatorio = Random.Range(1,5);
+        GameObject sueloPrefab;
+        if (numsueloscreados < 20 ) {
+            if (numsueloscreados == 19) {
+                sueloAleatorio = 7;
+            }
+            if (numsueloscreados % 2 == 0) {
+                sueloAleatorio = 0;
+            }
+
+            switch(sueloAleatorio) {
+                case 1: sueloPrefab = suelos[1];
+                        break;
+                case 2: sueloPrefab = suelos[2];
+                        break;
+                case 3: sueloPrefab = suelos[3];
+                        break;
+                case 4: sueloPrefab = suelos[4];
+                        break;
+                case 5: sueloPrefab = suelos[5];
+                        break;
+                case 6: sueloPrefab = suelos[6];
+                        break;
+                case 7: sueloPrefab = suelos[7];
+                        break;
+                default: sueloPrefab = suelos[0];
+                        break;
             }
             nuevoSuelo = Instantiate(sueloPrefab, new Vector3(ValX, 0, ValZ), Quaternion.identity);
             suelosTotales.Add(nuevoSuelo);
             numdeSuelos++;
-        }
-        yield return new WaitForSeconds(5);
-        GameObject sueloBorrar = suelosTotales[0];
-        sueloBorrar.GetComponent<Rigidbody>().isKinematic = false;
-        sueloBorrar.GetComponent<Rigidbody>().useGravity = true;
-        yield return new WaitForSeconds(3);
-        Destroy(suelosTotales[0]);
-        suelosTotales.RemoveAt(0);
-        numdeSuelos--;
+            numsueloscreados++;
+        }        
     }
+    yield return new WaitForSeconds(4);
+    GameObject sueloBorrar = suelosTotales[0];
+    sueloBorrar.GetComponent<Rigidbody>().isKinematic = false;
+    sueloBorrar.GetComponent<Rigidbody>().useGravity = true;
+    yield return new WaitForSeconds(3);
+    Destroy(suelosTotales[0]);
+    suelosTotales.RemoveAt(0);
+    numdeSuelos--;
+}
 
     void CrearSueloInicial() {
         for (int i = 0; i < 3; i++) {
@@ -116,42 +138,32 @@ public class PlayerMov2 : MonoBehaviour {
     }
 
     //Play sound when touch the ground
-    void OnCollisionEnter(Collision other) {
-        if (!tocarSuelo && other.gameObject.CompareTag("Suelo")) {
+    void OnCollisionEnter(Collision collision) {
+        if (!tocarSuelo && collision.gameObject.CompareTag("Suelo")) {
             tocarSuelo = true;
             audioSource.Play();
         }
         GetComponent<Rigidbody>().useGravity = false;
-
-        if(other.gameObject.tag == "Premio") {
-            StartCoroutine(GanoPuntos(other.gameObject, puntos, puntuacion));
+        if (collision.gameObject.CompareTag("Suelo")) {
+            contsuelos++;
+            ControladorPuntos.Instance.SumarPuntos(puntos);
+            contadorPuntos.text = "Puntos: " + ControladorPuntos.Instance.totalPuntos;
         }
-
-        if (other.gameObject.tag == "Obstaculo") {
-            StartCoroutine(PierdoVida());
-        }
-        
-        if(other.gameObject.tag == "Vida") {
-            StartCoroutine(GanoVida());
+        if (collision.gameObject.CompareTag("Meta")) {
+            StartCoroutine(NextLevel());
         }
     }
 
-    IEnumerator GanoPuntos(GameObject other, int puntos, Text Puntuacion) {
-        yield return new WaitForSeconds(1);
-        //Aumentar puntos
-        puntos++;
-        Puntuacion.text = "Puntuación: " + puntos;
-        Destroy(other.gameObject);
+    //Game Over
+    void GameOver() {
+        SceneManager.LoadScene("Escena99FinPartida");
     }
 
-    IEnumerator PierdoVida() {
-        yield return new WaitForSeconds(1);
-        vidas_canvas.RestarVida();
-    }
-
-    IEnumerator GanoVida() {
-        yield return new WaitForSeconds(1);
-        vidas_canvas.SumarVida();
+    IEnumerator NextLevel() {
+        yield return new WaitForSeconds(0.3f);
+        velocidad = 0;
+        int Escena = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(Escena);
     }
 
     //Flotando
@@ -163,16 +175,32 @@ public class PlayerMov2 : MonoBehaviour {
             yield return new WaitForSeconds(1);
             if (!Physics.Raycast(transform.position, Vector3.down, 2f)){
                 yield return new WaitForSeconds(0.5f);
-                vidas_canvas.GameOver();
+                GameOver();
             }
         }
     }
 
-    //Funcion para el boton saltar
     void Saltar() {
         if (tocarSuelo) {
             GetComponent<Rigidbody>().AddForce(Vector3.up * fuerzaSalto, ForceMode.Impulse);
             tocarSuelo = false;
+        }
+    }
+
+    void OnTriggerEnter(Collider other) {
+        if(other.gameObject.CompareTag("Premio")) {
+            totalEstrellas++;
+            ControladorPuntos.Instance.SumarPuntos(puntosEstrella);
+            contadorEstrellas.text = "Estrellas: " + totalEstrellas;
+            contadorPuntos.text = "Puntos: " + ControladorPuntos.Instance.totalPuntos;
+            Destroy(other.gameObject);
+        }
+        if(other.gameObject.CompareTag("SuperPremio")) {
+            totalEstrellas++;
+            ControladorPuntos.Instance.SumarPuntos(puntosSuperEstrella);
+            contadorEstrellas.text = "Estrellas: " + totalEstrellas;
+            contadorPuntos.text = "Puntos: " + ControladorPuntos.Instance.totalPuntos;
+            Destroy(other.gameObject);
         }
     }
 

@@ -4,7 +4,6 @@ Estruc
 - Nivel 2 añadimos premios y obstaculos de esquivar MC
 - Nivel 3 añadimos grandes premios, premios y obstaculos de saltar y esquivar
 - vidas si chocas el muro de saltar MC
-- si caes muerte LISTO
 
 - cambiar materiales bola y premios MV
 - sonido choque obstaculo
@@ -18,8 +17,3 @@ Prefabs: estrella, superestrella, vida
 Materiales: superestrella
 Movimiento: salto
 Fin del nivel 1
-
-ACTUALIZACIONES 01/03/2024:
-- Añadido interfaz con botones, vidas y marcador
-- Cambios en scripts para ser más legible y claro
-- 

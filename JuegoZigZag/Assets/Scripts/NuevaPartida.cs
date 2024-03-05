@@ -6,14 +6,19 @@ using UnityEngine.SceneManagement;
 public class NuevaPartida : MonoBehaviour {
 
     public void Reinicio() {
-        SceneManager.LoadScene("Escena01");
+        SceneManager.LoadScene(1);
     }
 
     public void MenuInicial() {
-        SceneManager.LoadScene("Escena00Inicio");
+        SceneManager.LoadScene(0);
     }
 
     public void Nivel2() {
-        SceneManager.LoadScene("Escena03");
+        SceneManager.LoadScene("Escena04 Nivel2");
+    }
+
+    public void SiguienteNivel() {
+        int Escena = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(Escena);
     }
 }

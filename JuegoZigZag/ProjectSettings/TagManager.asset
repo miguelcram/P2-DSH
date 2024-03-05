@@ -6,11 +6,11 @@ TagManager:
   tags:
   - ContactoSuelo
   - Suelo
-  - SueloObs1
-  - SueloObs2
   - Premio
   - SuperPremio
   - Vida
+  - VidaCont
+  - Meta
   layers:
   - Default
   - TransparentFX

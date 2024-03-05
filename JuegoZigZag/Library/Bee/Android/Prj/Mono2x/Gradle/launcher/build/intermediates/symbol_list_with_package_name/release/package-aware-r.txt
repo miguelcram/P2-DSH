@@ -1,4 +1,4 @@
-com.DefaultCompany.ProyectoZigZag
+com.MvMcCompany.ProyectoZigZag
 color staticSplashScreenBackgroundColor
 id unitySurfaceView
 mipmap app_icon

@@ -1,52 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class DinamicaVidas : MonoBehaviour
 {
-    public Sprite[] corazones;
-    public int vidas;
-    public SpriteRenderer SpriteRenderer;
-
-    private void Start()
+    public GameObject vida;
+    private NuevaPartida NuevaPartida;
+    
+    // Start is called before the first frame update
+    void Start()
     {
-        SpriteRenderer = GetComponent<SpriteRenderer>(); // Initialize the spriteRender variable
-        //Se accede al elemento 0 de la lista corazones
-        SpriteRenderer.sprite = corazones[vidas-3];
-    }
-
-    private void Update()
-    {
-        //Hcemos que siempre haya como maximo 3 corazones
-        if (corazones.Length > 3){
-            vidas = 3;
+        float offset = 1.0f;  // Separación entre vidas
+        //Creamos 3 vidas separadas por un offset
+        for (int i = 0; i < 3; i++)
+        {
+            Instantiate(vida, new Vector3(i * offset, 0, 0), Quaternion.identity);
         }
     }
 
-    //Sumar una vida
-    public void SumarVida()
-    {
-        if (corazones.Length > vidas){
-            vidas++;
-            SpriteRenderer.sprite = corazones[vidas-1];
+    void OnCollisionEnter(Collision collision){
+        if(collision.gameObject.CompareTag("Obstaculo")){            
+            RestarVida();
+            if(VidasPerdidas() >= 3){
+                NuevaPartida.Nivel2();
+            }
         }
     }
 
-    //Restar una vida
-    public void RestarVida()
+    void RestarVida()
     {
-        if (vidas > 0){
-            vidas--;
-            SpriteRenderer.sprite = corazones[vidas+1];
-        }else{
-            GameOver();
-        }
+        Destroy(GameObject.FindWithTag("Vida"));
     }
 
-    //Game Over
-    public void GameOver() {
-        SceneManager.LoadScene("Escena99FinPartida");
+    int VidasPerdidas()
+    {
+        GameObject[] vidas = GameObject.FindGameObjectsWithTag("Vida");
+        if(vidas != null){
+            return 3 - vidas.Length;
+        }else{ return 0; }
     }
+
 }
